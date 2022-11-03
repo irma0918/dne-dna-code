@@ -1,1 +1,13 @@
 If you change even one character in this file... Git will know.
+$ git fetch
+remote: Counting objects: 13, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 13 (delta 7), reused 13 (delta 7), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From https://github.com/CiscoDevNet/dne-dna-code
+a52eedf..f66f9d0 content-sprint-bklauser -> origin/content-sprint-bklauser
+
+$
+$ # If there haven't been any updates to the remote... There won't be any output.
+$ git fetch
+$
